@@ -38,7 +38,7 @@ class OptimalPage : UIViewController, ParkingManagerDelegate {
             case "Athletic Storage":
                 self.firstClosest = "WEST"
                 self.secondClosest = "UDU"
-//                self.buildingImage.image = UIImage(named: "woodward-hall")
+                self.buildingImage.image = UIImage(named: "Athletic-Storage")
             case "Atkins":
                 self.firstClosest = "CD VS"
                 self.secondClosest = "WEST"
