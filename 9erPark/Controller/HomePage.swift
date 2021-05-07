@@ -24,6 +24,10 @@ class HomePage: UIViewController, ParkingManagerDelegate {
     func didUpdateParking(_ parkingManager: ParkingManager, parkingDict: Dictionary<String, ParkingDeck>) {
         DispatchQueue.main.async{
             self.parkingInfo =  parkingDict
+//            for (key,value) in self.parkingInfo! {
+//                print(key)
+//                print(value)
+//            }
         }
     }
     
